@@ -189,6 +189,7 @@ A tree plugin for vue2
 | isLeaf | Boolean      |    false | if node is a leaf , set true can hide '+' |
 | dragDisabled | Boolean      |    false |  selective drag |
 | dropDisabled | Boolean      |    false |  selective drop |
+| showCheckbox      | Boolean      |  true | select sub childs permission |
 
 ## Custom Item Example
 

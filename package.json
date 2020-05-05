@@ -1,12 +1,12 @@
 {
-  "name": "vue-jstree",
+  "name": "vue-jstree-2",
   "version": "2.1.6",
   "description": "a tree plugin for vue2",
   "keywords": [
     "vue2",
     "tree"
   ],
-  "author": "zdy1988 <virus_zhh@126.com>",
+  "author": "fatih@fatihbasar.com",
   "main": "dist/vue-jstree.js",
   "private": false,
   "license": "MIT",

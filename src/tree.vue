@@ -34,10 +34,10 @@
 <script>
     import TreeItem from './tree-item.vue'
 
-    let ITEM_ID = 0
-    let ITEM_HEIGHT_SMALL = 18
-    let ITEM_HEIGHT_DEFAULT = 24
-    let ITEM_HEIGHT_LARGE = 32
+    let ITEM_ID = 0;
+    let ITEM_HEIGHT_SMALL = 18;
+    let ITEM_HEIGHT_DEFAULT = 24;
+    let ITEM_HEIGHT_LARGE = 32;
 
     export default {
         name: 'VJstree',

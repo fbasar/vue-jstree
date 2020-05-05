@@ -192,17 +192,19 @@
                 editingNode: null,
                 itemEvents: {
                     mouseover: function () {
-                        console.log('mouseover')
+                        console.log('mouseover');
                     },
                     contextmenu: function () {
                         console.log(arguments[2])
-                        arguments[2].preventDefault()
+                        arguments[2].preventDefault();
                         console.log('contextmenu')
                     }
                 },
                 data: [
                     {
-                        "text": "Same but with checkboxes",
+                        "text": "Same but with checkboxes 1",
+                        showCheckbox:false,
+                        dragable:false,
                         "children": [
                             {
                                 "text": "initially selected",
@@ -498,6 +500,9 @@
                     }
                 }
             }
+        },
+        created() {
+            console.log("data is ", this.data);
         }
     }
 </script>
